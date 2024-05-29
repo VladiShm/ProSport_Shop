@@ -4,33 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ProSport_Shop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/ProSport/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/main_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/css/main_page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/figure_blure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/foot-ins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/form.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/news1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/news3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/news4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/ski2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/ski_news.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/vk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/js/search.js" afterDir="false" />
+    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="dfsdf">
+      <change afterPath="$PROJECT_DIR$/Backend/users/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProSport_Shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ProSport_Shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,23 +29,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2h956iAS6XYYMTTtuABsyOkaXEb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/vlada/PycharmProjects/ProSport_Shop/Backend/static/js"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vlada/PycharmProjects/ProSport_Shop/Backend/static/js&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\static\js" />
@@ -91,6 +73,19 @@
       <option name="presentableId" value="Default" />
       <updated>1716993279054</updated>
     </task>
+    <task id="LOCAL-00001" summary="dfsdf">
+      <option name="closed" value="true" />
+      <created>1717008545083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717008545083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dfsdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="dfsdf" />
   </component>
 </project>
