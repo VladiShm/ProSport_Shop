@@ -1,5 +1,7 @@
 from django.contrib import auth
-from django.shortcuts import render, HttpResponseRedirect
+from django.shortcuts import render, HttpResponseRedirect, redirect
+
+from Backend.settings import LOGOUT_REDIRECT_URL
 from users.models import User
 from users.forms import UserLoginForm, UserRegistrationForm, UserProfileForm
 from django.urls import reverse
@@ -41,21 +43,6 @@ def register(request):
     return render(request, 'users/register.html', context)
 
 
-def profile(request):
-    if request.method == 'POST':
-        form = UserProfileForm(instance=request.user, data=request.POST, files=request.FILES)
-        if form.is_valid():
-            form.save()
-            return HttpResponseRedirect(reverse('users:profile'))
-    else:
-        form = UserProfileForm(instance=request.user)
-    context = {
-        'title': 'Profile',
-        'form': form
-    }
-    return render(request, 'users/profile.html', context)
-
-
 def logout(request):
     auth.logout(request)
-    return HttpResponseRedirect(reverse('index'))
+    return redirect(LOGOUT_REDIRECT_URL)

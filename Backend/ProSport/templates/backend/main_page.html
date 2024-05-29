@@ -15,11 +15,16 @@
         <div class="date"></div>
         <nav>
           <ul class="nav-links">
-            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="{% url 'catalog' %}">Каталог</a></li>
             <li>
               <a href="#">Меню &bigtriangledown;</a>
               <ul>
-                <li><a href="#">Админ-панель</a></li>
+                {% if user.is_superuser %}
+                    <li><a href="{% url 'admin:index' %}">Админ-панель</a></li>
+                {% endif %}
+                <li>
+                    <a href="{% url 'users:logout' %}"><i class="fas fa-sign-out-alt"></i> Выйти</a>
+                </li>
               </ul>
             </li>
           </ul>

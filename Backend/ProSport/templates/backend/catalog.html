@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/catalog.css' %}" />
+    <title>ProSport</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <a href="{% url 'index' %}" class="logo">ProSport</a>
+        <div class="clock"></div>
+        <div class="date"></div>
+        <nav>
+          <form id="search-form">
+            <input type="text" id="search-input" placeholder="Поиск..." />
+            <button type="submit">Поиск</button>
+          </form>
+        </nav>
+      </div>
+      <div class="product-grid">
+        {% for product in products %}
+        <div class="product-card">
+          <img src="{{ product.image.url }}" alt="{{ product.name }}" />
+          <h2>{{ product.name }}</h2>
+          <p>{{ product.description }}</p>
+          <span>{{ product.price }} ₽</span>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <script src="{% static 'js/search.js' %}"></script>
+  </body>
+</html>

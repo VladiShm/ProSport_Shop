@@ -15,6 +15,12 @@ def index(request):
     }
     return render(request, 'Backend/main_page.html', context)
 
+def catalog(request):
+    products = Items.objects.all()
+    context = {
+        'products': products,
+    }
+    return render(request, 'Backend/catalog.html', context)
 
 def order_view(request):
     if request.method == 'POST':
