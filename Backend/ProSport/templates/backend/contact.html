@@ -1,0 +1,83 @@
+<!doctype html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'css/main_page.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header" style="background-image: url('{% static 'img/main/image.png' %}')">
+            <a href="#" class="logo">ProSport</a>
+            <div class="clock"></div>
+            <div class="date"></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li>
+                        <a href="#">Меню &bigtriangledown;</a>
+                        <ul>
+                            <li><a href="#">Админ-панель</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+        <h2 class="about">Закажите товар уже сейчас</h2>
+        <p class="about">
+            Сделайте свой заказ прямо сейчас и получите качественные товары по
+            выгодным ценам! Мы гарантируем быструю доставку и отличное
+            обслуживание. Не упустите шанс обновить свой спортивный инвентарь и
+            наслаждаться активным образом жизни!
+        </p>
+        <div class="form_container">
+    <img src="{% static 'img/main/girl.png' %}" alt="">
+    <form method="post">
+        {% csrf_token %}
+
+        <!-- Остальные поля формы -->
+        {{ form.non_field_errors }}
+        <p>{{ form.first_name.label_tag }} {{ form.first_name }}</p>
+        <p>{{ form.last_name.label_tag }} {{ form.last_name }}</p>
+        <p>{{ form.email.label_tag }} {{ form.email }}</p>
+        <p>{{ form.city.label_tag }} {{ form.city }}</p>
+        <p>{{ form.street.label_tag }} {{ form.street }}</p>
+        <p>{{ form.house.label_tag }} {{ form.house }}</p>
+        <p>{{ form.apartment.label_tag }} {{ form.apartment }}</p>
+        <p>{{ form.delivery_method.label_tag }} {{ form.delivery_method }}</p>
+
+        <!-- Поля, которые добавляются вручную -->
+                   <p>
+             <select name="list2" id="product-select">
+                <option>Выберите товар</option>
+                {% for item in items %}
+                    <option value="{{ item.price }}">{{ item.name }}</option>
+                {% endfor %}
+            </select>
+            </p>
+        <p>
+            <label for="quantity">Количество:</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Количество" required class="input_box">
+        </p>
+        <p>
+            <label for="total-price">Итоговая стоимость:</label>
+            <input type="text" id="total-price" name="total_price" placeholder="Итоговая стоимость" readonly class="input_box">
+        </p>
+
+        <button type="submit">Send</button>
+    </form>
+</div>
+    </div>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>

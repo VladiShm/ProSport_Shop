@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{% static 'css/main_page.css' %}" />
+    <title>ProSport</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header"  style="background-image: url('{% static '/img/main/image.png' %}')">
+        <a href="#" class="logo">ProSport</a>
+        <div class="clock"></div>
+        <div class="date"></div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="catalog.html">Каталог</a></li>
+            <li>
+              <a href="#">Меню &bigtriangledown;</a>
+              <ul>
+                <li><a href="#">Админ-панель</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </nav>
+      </div>
+      <div class="main">
+        <h2 class="about">Новости</h2>
+        <p class="about">
+          Узнавайте о последних новинках и событиях в мире спорта первыми! Мы
+          постоянно обновляем наш ассортимент, чтобы предложить вам только
+          лучшие товары по выгодным ценам. Следите за нашими новостями, чтобы
+          быть в курсе всех актуальных предложений и акций!
+        </p>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="{% static 'img/main/ski_news.jpg' %}" alt="New Skis" />
+            <h2>Новое поступление лыж от Fischer</h2>
+            <p>
+              Теперь в продаже высококачественные лыжи Fischer LS Skate IFP.
+              Идеальный выбор для любителей и профессионалов!
+            </p>
+            <span>25 899 ₽</span>
+          </div>
+          <div class="product-card">
+            <img src="{% static 'img/main/ski2.jpg' %}" alt="New Skates" />
+            <h2>Новинка! Коньки Bauer</h2>
+            <p>
+              Встречайте новые коньки Bauer Supreme, обеспечивающие
+              непревзойденный комфорт и поддержку на льду.
+            </p>
+            <span>12 499 ₽</span>
+          </div>
+          <div class="product-card">
+            <img src="{% static 'img/main/news3.jpg' %}" alt="New Gear" />
+            <h2>Поступление спортивной экипировки</h2>
+            <p>
+              Расширили ассортимент спортивной экипировки: от лыжных ботинок до
+              защитных шлемов. Всё для вашей безопасности и комфорта!
+            </p>
+            <span>от 3 499 ₽</span>
+          </div>
+          <div class="product-card">
+            <img src="{% static 'img/main/news4.jpeg' %}" alt="New Winter Collection" />
+            <h2>Зимняя коллекция 2024</h2>
+            <p>
+              Представляем новую зимнюю коллекцию спортивной одежды и
+              аксессуаров. Будьте готовы к зиме с новинками от ведущих брендов!
+            </p>
+            <span>от 1 999 ₽</span>
+          </div>
+        </div>
+
+        <h2 class="about">Закажите товар уже сейчас</h2>
+        <p class="about">
+          Сделайте свой заказ прямо сейчас и получите качественные товары по
+          выгодным ценам! Мы гарантируем быструю доставку и отличное
+          обслуживание. Не упустите шанс обновить свой спортивный инвентарь и
+          наслаждаться активным образом жизни!
+        </p>
+
+<div class="form_container">
+    <img src="{% static 'img/main/girl.png' %}" alt="" />
+<form id="orderForm" action="{% url 'order' %}" method="post" class="forms">
+    <h2>Форма заказа</h2>
+    {% csrf_token %}
+    {{ form.non_field_errors }}
+    {{ form.first_name }}
+    {{ form.last_name }}
+    {{ form.email }}
+    {{ form.city }}
+    {{ form.street }}
+    {{ form.house }}
+    {{ form.apartment }}
+    {{ form.delivery_method }}
+    <select name="product" id="product-select">
+        <option value="">Выберите товар</option>
+        {% for product in products %}
+            <option value="{{ product.pk }}" data-price="{{ product.price }}">{{ product.name }} - {{ product.price }}</option>
+        {% endfor %}
+    </select>
+    {{ form.quantity }}
+    <div id="total-price-container">Общая стоимость: <span id="total-price">0</span> руб.</div>
+    <button type="submit">Заказать</button>
+</form>
+
+</div>
+
+      </div>
+      <div class="footer">
+        <div class="findus contact">
+          <p>Социальные сети</p>
+          <a href="#"><img src="{% static 'img/main/vk.png' %}" alt="vk" /></a>
+          <a href="#"><img src="{% static 'img/main/mail.png' %}" alt="mail" /></a>
+          <a href="#"><img src="{% static 'img/main/foot-ins.png' %}" alt="mail" /></a>
+        </div>
+        <div class="divider"></div>
+        <div class="contact">
+          <p>8(995)456-8761</p>
+          <p>г.Пермь</p>
+          <p>ProSport@mail.ru</p>
+        </div>
+        <div class="divider"></div>
+        <div class="map-container">
+          <script
+            type="text/javascript"
+            charset="utf-8"
+            async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab45b1ad193dd13fff5a27c3bb23ad9592ffdb445f6cc5a668c36359334cb3503&amp;width=100%25&amp;height=100%25&amp;lang=ru_RU&amp;scroll=true"
+          ></script>
+        </div>
+      </div>
+    </div>
+    <script src="{% static 'js/script.js' %}"></script>
+
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ProSport_Shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/ProSport/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/main_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/css/main_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/figure_blure.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/foot-ins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/form.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/news1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/news3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/news4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/ski2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/ski_news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/img/main/vk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backend/static/js/search.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2h956iAS6XYYMTTtuABsyOkaXEb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/vlada/PycharmProjects/ProSport_Shop/Backend/static/js"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\static\js" />
+      <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\static\img\main" />
+      <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\static\css" />
+      <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\ProSport\templates\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\ProSport\templates\backend" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="" />
+      <created>1716993279054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716993279054</updated>
+    </task>
+    <servers />
+  </component>
+</project>
