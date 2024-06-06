@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="add register, login">
-      <change afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backend/static/css/catalog.css" afterDir="false" />
+    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="lastversion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/Backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/ProSport/templates/backend/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/ProSport/templates/backend/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/ProSport/templates/backend/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/ProSport/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/media/items_images/c1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/media/items_images/c3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/users/templates/users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/templates/users/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/templates/users/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,14 +41,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/vlada/PycharmProjects/ProSport_Shop/Backend/static/css"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vlada/PycharmProjects/ProSport_Shop/Backend/static/css&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vlada\PycharmProjects\ProSport_Shop\Backend\static\css" />
@@ -94,12 +92,29 @@
       <option name="project" value="LOCAL" />
       <updated>1717010256741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lastversion">
+      <option name="closed" value="true" />
+      <created>1717013122139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717013122139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="lastversion">
+      <option name="closed" value="true" />
+      <created>1717013126060</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717013126060</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dfsdf" />
     <MESSAGE value="add register, login" />
-    <option name="LAST_COMMIT_MESSAGE" value="add register, login" />
+    <MESSAGE value="lastversion" />
+    <option name="LAST_COMMIT_MESSAGE" value="lastversion" />
   </component>
 </project>

@@ -152,5 +152,5 @@ INTERNAL_IPS = [
     # ...
 ]
 
-LOGIN_URL = 'login'  # URL-шаблон для страницы входа
-LOGOUT_REDIRECT_URL = '/'  # URL, на который будет перенаправлен пользователь после выхода из системы
+LOGIN_URL = 'login'
+LOGOUT_REDIRECT_URL = '/'

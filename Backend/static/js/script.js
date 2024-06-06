@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
             var productPrice = parseFloat(productSelect.options[productSelect.selectedIndex].getAttribute('data-price'));
             var quantity = parseInt(quantityInput.value);
             var totalPrice = productPrice * quantity;
-            totalPriceContainer.textContent = totalPrice.toFixed(2); // Округление до двух знаков после запятой
+            totalPriceContainer.textContent = totalPrice.toFixed(2);
         }
 
         // Обновление общей стоимости при изменении товара или количества

@@ -15,6 +15,7 @@ def index(request):
     }
     return render(request, 'Backend/main_page.html', context)
 
+
 def catalog(request):
     products = Items.objects.all()
     context = {
@@ -39,18 +40,6 @@ def order_view(request):
             total_price = product.price * quantity
             products = Items.objects.all()
 
-            print(f'Имя: {first_name}')
-            print(f'Фамилия: {last_name}')
-            print(f'Email: {email}')
-            print(f'Город: {city}')
-            print(f'Улица: {street}')
-            print(f'Дом: {house}')
-            print(f'Квартира: {apartment}')
-            print(f'Способ доставки: {delivery_method}')
-            print(f'Товар: {product}')
-            print(f'Количество: {quantity}')
-            print(f'Итоговая стоимость: {total_price}')
-            # Формирование сообщения
             message = f"""
             Ваш заказ успешно оформлен!
             Имя: {first_name}
@@ -69,7 +58,7 @@ def order_view(request):
             email_message = EmailMessage(
                 'Новый заказ',
                 message,
-                'prosport1337@mail.ru',  # Здесь укажите ваш email
+                'prosport1337@mail.ru',
                 [email],  # Email клиента
             )
             email_message.send()

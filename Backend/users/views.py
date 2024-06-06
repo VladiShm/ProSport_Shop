@@ -3,7 +3,7 @@ from django.shortcuts import render, HttpResponseRedirect, redirect
 
 from Backend.settings import LOGOUT_REDIRECT_URL
 from users.models import User
-from users.forms import UserLoginForm, UserRegistrationForm, UserProfileForm
+from users.forms import UserLoginForm, UserRegistrationForm
 from django.urls import reverse
 from django import forms
 
