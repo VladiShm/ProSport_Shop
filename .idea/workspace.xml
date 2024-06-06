@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="lastversion">
+    <list default="true" id="426009f1-81aa-455c-a6d5-bccc14f51b94" name="Changes" comment="Добавлен вывод ошибок при регистрации и авторизации">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/ProSport/templates/backend/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/catalog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/ProSport/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/ProSport/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/ProSport/templates/backend/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/templates/backend/main_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/ProSport/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/ProSport/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/users/templates/users/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/templates/users/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +104,22 @@
       <option name="project" value="LOCAL" />
       <updated>1717013126060</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Добавлен вывод ошибок при регистрации и авторизации">
+      <option name="closed" value="true" />
+      <created>1717673443184</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717673443184</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dfsdf" />
     <MESSAGE value="add register, login" />
     <MESSAGE value="lastversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="lastversion" />
+    <MESSAGE value="Добавлен вывод ошибок при регистрации и авторизации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлен вывод ошибок при регистрации и авторизации" />
   </component>
 </project>
